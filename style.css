@@ -41,7 +41,7 @@ main {
 }
 .section-faseDeGrupos {
     width: 100%;
-    height: 200vh;
+    height: 150vh;
     background-image: url("images/fondo-bordo.jpg");
     background-repeat: repeat;
 }
@@ -52,6 +52,7 @@ main {
     font-size: 28px;
     text-align: center;
     padding-top: 40px;
+    margin-bottom: 50px;
 }
 .container-cards {
     width: 400px;
@@ -64,7 +65,7 @@ main {
     background-color: #c87c8f;
     margin: 10px;
     padding: 5px;
-    width: 355px;
+    max-width: 355px;
 }
 .card-header {
     background: none;
@@ -75,19 +76,21 @@ main {
     height: fit-content;
 }
 .container-partidos {
-    width: 355px;
+    max-width: 355px;
     display: flex;
     gap: 10px;
 }
 .fecha {
-    font-size: 10px;
+    font-size: 12px;
+    color: #9a1032;
 }
 .partido {
     text-align: center;
     font-size: 14PX;
 }
 .list-group-item {
-    height: 45px;
+    height: 50px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 
@@ -102,5 +105,7 @@ main {
     .img-copa-main {
         width: 200px;
     }
-
+    .container-cards {
+        margin-left: 20px;
+    }
 }
