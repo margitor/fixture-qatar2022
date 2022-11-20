@@ -19,13 +19,13 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-position: bottom;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 .img-titulo-main {
     width: 300px;
@@ -35,6 +35,7 @@ main {
     height: auto;
 }
 .btn {
+    margin-bottom: 50px;
     background-color: #9a1032;
     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
