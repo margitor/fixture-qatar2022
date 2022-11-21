@@ -97,13 +97,18 @@ main {
     font-size: 14PX;
 }
 .list-group-item {
-    height: 50px;
+    height: 60px;
     font-family: 'Josefin Sans', sans-serif;
 }
 strong {
     color: red;
 }
-
+#suiza {
+    width: 35px;
+}
+#uruguay {
+    width: 40px;
+}
 @media screen and (min-width:1024px) {
     main {
         background-image: url("images/estadio-2.png");
