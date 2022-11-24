@@ -55,6 +55,7 @@ main {
     padding-top: 40px;
     margin-bottom: 50px;
 }
+/*estilos cards fase de grupos*/
 .container-wrapper-cards {
     display: flex;
     flex-direction: column;
@@ -64,7 +65,7 @@ main {
 .container-cards {
     width: 370px;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .card {
     display: flex;
@@ -78,6 +79,7 @@ main {
 .card-header {
     background: none;
     color: white;
+    border-bottom: none;
 }
 .banderas {
     width: 50px;
@@ -103,6 +105,8 @@ main {
 }
 strong {
     color: red;
+    font-size: 16px;
+    font-weight: bold;
 }
 #suiza {
     width: 35px;
@@ -110,6 +114,20 @@ strong {
 #uruguay {
     width: 40px;
 }
+
+/*estilos card posiciones fase de grupos*/
+.list-group-numbered {
+    width: 350px;
+    height: 170px;
+    font-size: 14px;
+}
+.rounded-pill {
+    background-color: #9a1032;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
 @media screen and (min-width:1024px) {
     main {
         background-image: url("images/estadio-2.png");
