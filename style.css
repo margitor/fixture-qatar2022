@@ -163,6 +163,7 @@ strong {
 .card-title {
     font-family:'Josefin Sans', sans-serif ;
     font-size: 18px;
+    color: rgb(102, 98, 98);
 }
 .card-text {
     font-size: 18px;
