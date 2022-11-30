@@ -67,7 +67,7 @@ main {
     height: auto;
     margin-bottom: 30px;
 }
-.card {
+.section-faseDeGrupos .card {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -126,7 +126,52 @@ strong {
     font-size: 12px;
     font-weight: 400;
 }
-
+/*estilos octavos*/
+.section-octavos {
+    width: 100%;
+    height: fit-content;
+    background-image: url("images/fondo-cespedconcopa.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.section-octavos .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #c87c8f;
+    margin: 10px;
+    padding: 5px;
+    max-width: 540px;
+}
+.g-0 {
+    background-color: #e4cbd1;
+}
+.card-body {
+    background-color: #e4cbd1;
+}
+.col-md-3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 5px;
+}
+.r-octavos {
+    font-size: unset;
+    margin-left: 8px;
+}
+.card-title {
+    font-family:'Josefin Sans', sans-serif ;
+    font-size: 18px;
+}
+.card-text {
+    font-size: 18px;
+}
+.hora {
+    color: #9a1032;
+    font-weight: 600;
+}
+/*estilos footer*/
 
 @media screen and (min-width:1024px) {
     main {
@@ -147,5 +192,28 @@ strong {
     }
     .container-cards {
         margin-left: 20px;
+    }
+    .col-md-3 {
+        display: flex;
+        align-items: center;
+    flex-direction: column;
+    margin: 0;
+    }
+    .col-md-3 .img-fluid {
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .col-md-3 .card-title {
+        font-size: 18px;
+        text-align: center;
+    }
+    .r-octavos {
+        margin-left: 5px;
+    }
+    .section-octavos .card {
+        width: 540px;
+    }
+    .section-octavos .g-0 {
+        width: 540px;
     }
 }
