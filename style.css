@@ -5,7 +5,9 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
 }
-
+:root {
+    scroll-behavior: auto;
+}
 .navbar .container-fluid {
     gap: 50px;
 }
