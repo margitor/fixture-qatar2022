@@ -173,7 +173,45 @@ strong {
     font-weight: 600;
 }
 /*estilos footer*/
-
+footer {
+    width: 100%;
+    height: fit-content;
+    background-image: url("images/fondo-bordo.jpg");
+    background-size: cover;
+}
+.footer-container-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.footer-container-logo img {
+    width: 200px;
+}
+.footer-container-sitemap {
+    width: 100%;
+}
+.item-sitemap {
+    list-style: none;
+}
+.item-sitemap a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer-copy {
+    width: 100%;
+    height: auto;
+}
+.footer-copy h6 {
+    margin: 0;
+    color: #c87c8f;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.footer-copy a {
+    color: #c87c8f;
+}
 @media screen and (min-width:1024px) {
     main {
         background-image: url("images/estadio-2.png");
