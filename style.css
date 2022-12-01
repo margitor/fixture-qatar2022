@@ -191,7 +191,6 @@ footer {
 }
 .footer-container-sitemap {
     width: 100%;
-    padding: 20px;
 }
 .item-sitemap {
     list-style: none;
@@ -257,5 +256,8 @@ footer {
     }
     .section-octavos .g-0 {
         width: 540px;
+    }
+    .footer-container-sitemap {
+        padding: 20px;
     }
 }
