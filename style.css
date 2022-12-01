@@ -133,6 +133,7 @@ strong {
     background-image: url("images/fondo-cespedconcopa.jpg");
     background-repeat: repeat;
     background-size: cover;
+    padding-bottom: 40px;
 }
 .section-octavos .card {
     display: flex;
