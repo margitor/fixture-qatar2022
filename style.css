@@ -1,12 +1,12 @@
+:root {
+    scroll-behavior: auto;
+}
 body {
     -webkit-font-smoothing: antialiased;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Jost', sans-serif;
     margin: 0 auto;
     box-sizing: border-box;
-}
-:root {
-    scroll-behavior: auto;
 }
 .navbar .container-fluid {
     gap: 50px;
@@ -45,8 +45,9 @@ main {
 .section-faseDeGrupos {
     width: 100%;
     height: fit-content;
-    background-image: url("images/fondo-bordo.jpg");
+    background-image: url("images/fondo-conblanco-bordo.jpg");
     background-repeat: repeat;
+    background-size: contain;
 }
 .titulo-section {
     font-family: 'Josefin Sans', sans-serif;
@@ -54,7 +55,7 @@ main {
     font-weight: 700;
     font-size: 28px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 65px;
     margin-bottom: 50px;
 }
 /*estilos cards fase de grupos*/
@@ -73,7 +74,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #c87c8f;
+    background-color: #00cfb6 ;
     margin: 10px;
     padding: 5px;
     max-width: 355px;
@@ -124,7 +125,7 @@ strong {
     font-size: 14px;
 }
 .rounded-pill {
-    background-color: #9a1032;
+    background-color: #d9024a;
     font-size: 12px;
     font-weight: 400;
 }
@@ -141,7 +142,7 @@ strong {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #c87c8f;
+    background-color: #9a1032;
     margin: 10px;
     padding: 5px;
     max-width: 540px;
@@ -175,24 +176,43 @@ strong {
     color: #9a1032;
     font-weight: 600;
 }
+/*estilos cuartos*/
+.section-cuartos {
+    width: 100%;
+    height: fit-content;
+    background-image: url("images/fondo-conblanco-bordo.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    padding-bottom: 40px;
+}
+.section-cuartos .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #00cfb6;
+    margin: 10px;
+    padding: 5px;
+    max-width: 540px;
+}
 /*estilos footer*/
 footer {
     width: 100%;
     height: fit-content;
-    background-image: url("images/fondo-bordo.jpg");
+    background-image: url("images/fondo-conblanco-bordo.jpg");
     background-size: cover;
 }
 .footer-container-logo {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 55px;
 }
 .footer-container-logo img {
     width: 200px;
 }
 .footer-container-sitemap {
     width: 100%;
+    padding: 20px;
 }
 .item-sitemap {
     list-style: none;
@@ -207,10 +227,10 @@ footer {
     height: auto;
 }
 .footer-copy h6 {
-    margin: 0;
+    margin: 0px;
     color: #c87c8f;
     text-align: center;
-    padding: 10px;
+    padding-bottom: 30px;
     font-family: 'Josefin Sans', sans-serif;
 }
 .footer-copy a {
@@ -259,7 +279,19 @@ footer {
     .section-octavos .g-0 {
         width: 540px;
     }
+    .section-cuartos {
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 40px;
+        height: 100vh;
+    }
+    .section-cuartos .card {
+        width: 540px;
+    }
+    .section-cuartos .g-0 {
+        width: 540px;
+    }
     .footer-container-sitemap {
-        padding: 20px;
+        padding: 50px;
     }
 }
