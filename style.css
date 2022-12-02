@@ -198,7 +198,7 @@ strong {
 footer {
     width: 100%;
     height: fit-content;
-    background-image: url("images/fondo-conblanco-bordo.jpg");
+    background-image: url("images/fondo-bordo.jpg");
     background-size: cover;
 }
 .footer-container-logo {
