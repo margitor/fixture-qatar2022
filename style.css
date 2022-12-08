@@ -163,6 +163,9 @@ strong {
     font-size: unset;
     margin-left: 8px;
 }
+.r-penales {
+    font-size: 18px;
+}
 .card-title {
     font-family:'Josefin Sans', sans-serif ;
     font-size: 18px;
