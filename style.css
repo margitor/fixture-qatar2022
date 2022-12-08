@@ -212,6 +212,47 @@ background: linear-gradient(180deg, rgba(160,65,110,1) 0%, rgba(0,207,182,1) 40%
     padding: 5px;
     max-width: 540px;
 } 
+/*estilos 3° y 4° puesto*/
+.section-tercycuarto {
+    width: 100%;
+    height: fit-content;
+    background: rgb(160,65,110);
+background: linear-gradient(0deg, rgba(160,65,110,0.938813025210084) 16%, rgba(0,207,182,0.8295693277310925) 54%, rgba(166,247,238,0.835171568627451) 88%);
+    padding-bottom: 40px;
+}
+.section-tercycuarto .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #9a1032;
+    margin: 10px;
+    padding: 5px;
+    max-width: 540px;
+} 
+.titulo-fases-finales {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #9a1032;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 65px;
+    margin-bottom: 50px;
+}
+.card-title-tercycuarto {
+    color: #00cfb6;
+    background-color: #9a1032;
+    width: fit-content;
+}
+.card-text-tercycuarto {
+    color: #e4cbd1;
+    background-color: #9a1032;
+    width: fit-content;
+}
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 /*estilos footer*/
 footer {
     width: 100%;
@@ -306,13 +347,17 @@ footer {
     .section-cuartos .g-0 {
         width: 540px;
     }
-    .section-semifinales {
-        height: 100vh;
-    }
+    
     .section-semifinales .card {
         width: 540px;
     }
     .section-semifinales .g-0 {
+        width: 540px;
+    }
+    .section-tercycuarto .card {
+        width: 540px;
+    }
+    .section-tercycuarto .g-0 {
         width: 540px;
     }
     .footer-container-sitemap {
