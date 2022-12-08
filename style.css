@@ -194,7 +194,24 @@ strong {
     margin: 10px;
     padding: 5px;
     max-width: 540px;
+} 
+/*estilos semifinales*/
+.section-semifinales {
+    width: 100%;
+    height: fit-content;
+    background: rgb(160,65,110);
+background: linear-gradient(180deg, rgba(160,65,110,1) 0%, rgba(0,207,182,1) 40%, rgba(166,247,238,0.6951155462184874) 78%);
+    padding-bottom: 40px;
 }
+.section-semifinales .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #a0416e;
+    margin: 10px;
+    padding: 5px;
+    max-width: 540px;
+} 
 /*estilos footer*/
 footer {
     width: 100%;
@@ -252,7 +269,7 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     }
     .container-cards {
         margin-left: 20px;
@@ -287,6 +304,15 @@ footer {
         width: 540px;
     }
     .section-cuartos .g-0 {
+        width: 540px;
+    }
+    .section-semifinales {
+        height: 100vh;
+    }
+    .section-semifinales .card {
+        width: 540px;
+    }
+    .section-semifinales .g-0 {
         width: 540px;
     }
     .footer-container-sitemap {
