@@ -261,6 +261,7 @@ background: linear-gradient(0deg, rgba(160,65,110,0.938813025210084) 16%, rgba(0
 background: linear-gradient(180deg, rgba(160,65,110,0.9948354341736695) 5%, rgba(0,207,182,0.5046393557422969) 35%, rgba(166,247,238,0.13489145658263302) 50%), url("images/estadio-2-mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 /*estilos footer*/
 footer {
