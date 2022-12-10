@@ -273,11 +273,11 @@ background: linear-gradient(180deg, rgba(160,65,110,0.9948354341736695) 5%, rgba
     padding: 10px;
     text-align: center;
     /* From https://css.glass */
-background: rgba(255, 255, 255, 0.33);
+background: rgba(255, 255, 255, 0.48);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(1.7px);
--webkit-backdrop-filter: blur(1.7px);
+backdrop-filter: blur(5.3px);
+-webkit-backdrop-filter: blur(5.3px);
 }
 /*estilos footer*/
 footer {
