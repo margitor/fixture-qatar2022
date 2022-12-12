@@ -313,7 +313,7 @@ backdrop-filter: blur(5.3px);
 
 }
 .img-bandera-finalistas {
-    width: 25px;
+    width: 35px;
 }
 /*estilos footer*/
 footer {
@@ -439,6 +439,9 @@ footer {
     }
     .container-nombre-equipo {
         justify-content: space-evenly;
+    }
+    .img-bandera-finalistas {
+        width: 50px;
     }
     .footer-container-sitemap {
         padding: 50px;
