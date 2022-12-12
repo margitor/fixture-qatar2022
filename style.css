@@ -307,11 +307,10 @@ backdrop-filter: blur(5.3px);
     font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
     color: #fff;
-    background-color: #a0416e;
     width: fit-content;
     text-align: center;
     padding: 5px;
-    border-radius: 5px;
+
 }
 .img-bandera-finalistas {
     width: 25px;
