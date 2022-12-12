@@ -256,7 +256,7 @@ background: linear-gradient(0deg, rgba(160,65,110,0.938813025210084) 16%, rgba(0
 /*estilos final*/
 .section-final {
     width: 100%;
-    height: 120vh;
+    max-height: 120vh;
     background: rgb(160,65,110);
 background: linear-gradient(180deg, rgba(160,65,110,0.9948354341736695) 5%, rgba(0,207,182,0.5046393557422969) 35%, rgba(166,247,238,0.13489145658263302) 50%), url("images/estadio-2-mobile.png");
     background-size: cover;
@@ -278,6 +278,43 @@ border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5.3px);
 -webkit-backdrop-filter: blur(5.3px);
+}
+.container-futbolistas {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.img-futbolistas-final {
+    height: 200px;
+}
+.img-vs {
+    height: 80px;
+}
+.container-nombre-equipo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.nombre-equipo {
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    background-color: #a0416e;
+    width: fit-content;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+.img-bandera-finalistas {
+    width: 25px;
 }
 /*estilos footer*/
 footer {
@@ -390,6 +427,18 @@ footer {
         background: rgb(160,65,110);
     background: linear-gradient(180deg, rgba(160,65,110,0.9948354341736695) 5%, rgba(0,207,182,0.5046393557422969) 35%, rgba(166,247,238,0.13489145658263302) 50%), url("images/estadio-2.png");
         background-position: center;
+        background-repeat: no-repeat;
+    }
+    .img-futbolistas-final {
+        height: 300px;
+    }
+    .img-vs {
+        height: 150px;
+        margin-left: 50px;
+    margin-right: 20px;
+    }
+    .container-nombre-equipo {
+        justify-content: space-evenly;
     }
     .footer-container-sitemap {
         padding: 50px;
