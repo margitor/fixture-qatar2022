@@ -253,6 +253,9 @@ background: linear-gradient(0deg, rgba(160,65,110,0.938813025210084) 16%, rgba(0
     flex-direction: column;
     justify-content: flex-end;
 }
+.card .text-bg {
+    height: 300px;
+}
 /*estilos final*/
 .section-final {
     width: 100%;
