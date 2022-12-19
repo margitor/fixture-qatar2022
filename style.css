@@ -318,6 +318,60 @@ backdrop-filter: blur(5.3px);
 .img-bandera-finalistas {
     width: 50px;
 }
+/*section campeon*/
+.section-campeon {
+    width: 100%;
+    height: fit-content;
+    background: rgb(160,65,110);
+    background: linear-gradient(0deg, rgba(160,65,110,0.9948354341736695) 15%, rgba(0,207,182,0.38139005602240894) 56%, rgba(166,247,238,0.13489145658263302) 88%), url("images/fondo-bordo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-titulo-campeon {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.container-titulo-campeon img {
+    width: 300px;
+}
+.titulo-campeon img {
+    width: 50px;
+}
+.titulo-campeon {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #00cfb6;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container-img-campeon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.container-img-campeon img {
+    width: 440px;
+    border-radius: 10px;
+}
+.container-copa-campeon {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-copa-campeon img {
+    width: 440px;
+}
 /*estilos footer*/
 footer {
     width: 100%;
@@ -445,6 +499,12 @@ footer {
     }
     .img-bandera-finalistas {
         width: 80px;
+    }
+    .container-img-campeon img {
+        width: 1000px;
+    }
+    .container-copa-campeon img {
+        width: 640px;
     }
     .footer-container-sitemap {
         padding: 50px;
