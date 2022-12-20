@@ -340,13 +340,13 @@ backdrop-filter: blur(5.3px);
     width: 300px;
 }
 .titulo-campeon img {
-    width: 50px;
+    width: 40px;
 }
 .titulo-campeon {
     font-family: 'Josefin Sans', sans-serif;
     color: #00cfb6;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -505,6 +505,12 @@ footer {
     }
     .container-copa-campeon img {
         width: 640px;
+    }
+    .titulo-campeon {
+        font-size: 30px;
+    }
+    .titulo-campeon img {
+        width: 50px;
     }
     .footer-container-sitemap {
         padding: 50px;
